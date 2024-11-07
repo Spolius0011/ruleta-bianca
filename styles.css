@@ -69,6 +69,16 @@ body {
     border-bottom: 25px solid #333;
     z-index: 1;
 }
+footer {
+    position: fixed; /* Permite que el footer permanezca en su lugar */
+    bottom: 10px; /* Distancia desde el borde inferior */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    text-align: center; /* Centra el texto dentro del footer */
+    color: #ffffff; /* Color del texto */
+    font-size: 1rem; /* Tamaño de la fuente */
+    text-shadow: 1px 1px 2px #00ffff; /* Sombra del texto para mayor legibilidad */
+}
+
 
 /* Botón para girar */
 .boton-girar {
